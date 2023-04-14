@@ -1,22 +1,25 @@
 
 import './App.css'
 import Home from './Component/Home';
-import Date from './date/Date.json';
-import Temas from './Component/Temas'
+import { Routes, Route} from 'react-router-dom';
+import Contenido from './Component/Contenido'
+import Suma from './Component/Suma'
+import Team from './Component/Team'
+import Triki from './Component/Triki'
+
 
 function App() {
-
-  let temas = Date;
-  
   return (
     <div className="App">
-      <Home >
-        {temas.map(tema => 
-          <Temas titulo={tema.titulo} imagen={tema.imagen} descripcion={tema.descripcion} duracion={tema.duracion} clasificacion={tema.clasificacion} estreno={tema.estreno} director={tema.director} actores={tema.actores} anio={tema.anio} />
-        )}
-      </Home>
+      <Routes>
+        <Route path="/aprende-conmigo/" element={<Home/>}/>
+        <Route path="/aprende-conmigo/team" element={<Team />}/>
+        <Route path="/aprende-conmigo/suma" element={<Suma/>}/>
+        <Route path="/aprende-conmigo/triki" element={<Triki />}/>
+        <Route path="*" element={"Error 404"}/>
+      </Routes>
     </div>
-  )
+  );
 }
 
 export default App

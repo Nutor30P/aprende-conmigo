@@ -1,14 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Temas({titulo, imagen, descripcion, duracion, clasificacion, estreno, director, actores, anio}) {
+function Temas({titulo, imagen, descripcion, duracion, clasificacion, actores}) {
+  
   return (
     <div className="movie-item-style-2">
     <img src={imagen} alt="" />
     <div className="mv-item-infor">
       <h6>
-        <a href="moviesingle.html">
-          {titulo} <span>({anio})</span>
-        </a>
+        <Link to={`/aprende-conmigo/${titulo}`}>{titulo}</Link>
       </h6>
       <p className="rate">
         <i className="ion-android-star"></i>

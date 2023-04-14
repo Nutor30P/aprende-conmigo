@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.css"
+import { Link } from "react-router-dom";
 
 function Encabezado() {
   return (
@@ -11,7 +12,7 @@ function Encabezado() {
               <h1> LISTAS DE TEMAS</h1>
               <ul className="breadcumb">
                 <li className="active">
-                  <a href="#">Home</a>
+                  <Link to="/aprende-conmigo/">Inicio</Link>
                 </li>
                 <li>
                   {" "}

@@ -1,6 +1,10 @@
 import React from 'react'
+import { Link, Route, Routes } from 'react-router-dom'
+import '../Component/Contenido'
+import '../styles/home.css'
 
-function EncabezadoPrincipal() {
+function EncabezadoPrincipal(props) {
+
   return (
     <header className="ht-header">
         <div className="container">
@@ -11,22 +15,19 @@ function EncabezadoPrincipal() {
                 data-toggle="collapse"
                 data-target="#bs-example-navbar-collapse-1"
               >
-                <span className="sr-only">Toggle navigation</span>
                 <div id="nav-icon1">
                   <span></span>
                   <span></span>
                   <span></span>
                 </div>
               </div>
-              <a href="index-2.html">
                 <img
-                  className="logo"
-                  src="images/uploads/logo.png"
+                  className="logo-Header"
+                  src="images/uploads/logito.png"
                   alt=""
                   width="119"
                   height="58"
                 />
-              </a>
             </div>
 
             <div
@@ -47,10 +48,10 @@ function EncabezadoPrincipal() {
                   </a>
                   <ul className="dropdown-menu level1">
                     <li>
-                      <a href="index-2.html">Acerca del proyecto</a>
+                      <Link to="/aprende-conmigo/contenido">Nuestra Mision</Link>
                     </li>
                     <li>
-                      <a href="homev2.html">Expectativas</a>
+                      <a href="homev2.html">Nuestro Objetivo</a>
                     </li>
                     <li>
                       <a href="homev3.html">Encuestas de respaldo</a>
@@ -86,7 +87,7 @@ function EncabezadoPrincipal() {
                   </a>
                   <ul className="dropdown-menu level1">
                     <li>
-                      <a href="celebritygrid01.html">x</a>
+                      <Link to="/aprende-conmigo/triki">Triki</Link>
                     </li>
                   </ul>
                 </li>
@@ -121,7 +122,7 @@ function EncabezadoPrincipal() {
                   </a>
                   <ul className="dropdown-menu level1">
                     <li>
-                      <a href="userfavoritegrid.html">Nuestro Equipo</a>
+                    <Link to="/aprende-conmigo/team">Nuestro Equipo</Link>
                     </li>
                   </ul>
                 </li>
@@ -130,6 +131,7 @@ function EncabezadoPrincipal() {
           </nav>
         </div>
       </header>
+  
   )
 }
 
