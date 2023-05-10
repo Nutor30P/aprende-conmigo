@@ -1,10 +1,6 @@
 import React from 'react'
-import { Link, Route, Routes } from 'react-router-dom'
-import '../Component/Contenido'
-import '../styles/home.css'
-
-function EncabezadoPrincipal(props) {
-
+import { Link} from 'react-router-dom'
+function EncabezadoPrincipal() {
   return (
     <header className="ht-header">
         <div className="container">
@@ -48,10 +44,10 @@ function EncabezadoPrincipal(props) {
                   </a>
                   <ul className="dropdown-menu level1">
                     <li>
-                      <Link to="/aprende-conmigo/contenido">Nuestra Mision</Link>
+                      <Link to="">Nuestra Mision</Link>
                     </li>
                     <li>
-                      <a href="homev2.html">Nuestro Objetivo</a>
+                      <Link to="/aprende-conmigo/contenido">Nuestra Vision</Link>
                     </li>
                     <li>
                       <a href="homev3.html">Encuestas de respaldo</a>
@@ -131,7 +127,6 @@ function EncabezadoPrincipal(props) {
           </nav>
         </div>
       </header>
-  
   )
 }
 

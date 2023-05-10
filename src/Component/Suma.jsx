@@ -7,7 +7,7 @@ import { MathComponent } from "mathjax-react";
 function Suma() {
   return (
     <>
-      <EncabezadoPrincipal />
+    <EncabezadoPrincipal />
       <Encabezado />
       <div className="tema-principal">
         <div>
@@ -37,14 +37,7 @@ function Suma() {
                 <a href="#Resolver_una_suma"></a>
                 <li>
                   <a href="#Resolver_una_suma"> </a>
-                  <a href="#Ejemplos_de_suma">Ejemplos de suma</a>
                 </li>
-                <a href="#Ejemplos_de_suma"></a>
-                <li>
-                  <a href="#Ejemplos_de_suma"> </a>
-                  <a href="#Ejercicios_de_suma">Ejercicios de suma</a>
-                </li>
-                <a href="#Ejercicios_de_suma"></a>
               </div>
               <div className="ancla-indice"></div>
             </ul>
@@ -142,20 +135,17 @@ function Suma() {
                 </li>
                 <li>
                   <strong>Identidad:</strong> es la propiedad que indica que
-                  existe un número que, al sumarlo a cualquier otro, el resultado
-                  será el mismo número. Este número se conoce como identidad
-                  aditiva y se representa con la letra "0". Por ejemplo:{" "}
-                  <MathComponent
-                    tex={String.raw`a + 0 = a`}
-                    display={false}
-                  />
-                  .
+                  existe un número que, al sumarlo a cualquier otro, el
+                  resultado será el mismo número. Este número se conoce como
+                  identidad aditiva y se representa con la letra "0". Por
+                  ejemplo:{" "}
+                  <MathComponent tex={String.raw`a + 0 = a`} display={false} />.
                 </li>
                 <li>
                   <strong>Elemento inverso:</strong> es el número que, al
                   sumarlo a otro, el resultado es cero. Este número se conoce
-                  como elemento inverso aditivo y se representa con la letra "0".
-                  Por ejemplo:{" "}
+                  como elemento inverso aditivo y se representa con la letra
+                  "0". Por ejemplo:{" "}
                   <MathComponent
                     tex={String.raw`a + (-a) = 0`}
                     display={false}
@@ -163,7 +153,12 @@ function Suma() {
                   .
                 </li>
                 <li>
-                <strong>Propiedad distribuitiva:</strong>  en esta propiedad se hace en función de la multiplicación en combinación con la suma. La propiedad dice que la suma de dos números, multiplicado por un tercero, será igual a la suma del producto de cada sumando, multiplicado por el tercer número. Se puede generalizar de la siguiente manera:{" "}
+                  <strong>Propiedad distribuitiva:</strong> en esta propiedad se
+                  hace en función de la multiplicación en combinación con la
+                  suma. La propiedad dice que la suma de dos números,
+                  multiplicado por un tercero, será igual a la suma del producto
+                  de cada sumando, multiplicado por el tercer número. Se puede
+                  generalizar de la siguiente manera:{" "}
                   <MathComponent
                     tex={String.raw`a * (b + c) = a * b + a * c`}
                     display={false}
@@ -176,8 +171,73 @@ function Suma() {
                 </li>
               </ul>
             </p>
+            <div>
+              <h2 id="Resolver_una_suma">Resolver una Suma</h2>
+              <p>
+                Para realizar una suma, los sumadores se pueden ordenar de dos
+                maneras:
+              </p>
+              <ul>
+                <li>En columna</li>
+                <p>
+                  Por lo general se utiliza para cantidades pequeñas o pocos
+                  sumandos y ayuda al aprendizaje del cálculo mental. Por
+                  ejemplo, 9 + 5 = 14. Para sumar cantidades de más de un dígito
+                  ordenados de manera horizontal, se deben sumar según el valor
+                  posicional de derecha a izquierda, de esta misma manera se
+                  colocan en el total. Así, se suman, unidades con unidades,
+                  decenas con las decenas, hasta sumar todos los dígitos.
+                  <br />
+                  <img src="/public/images/suma_columna.png" alt="suma" />
+                </p>
+                <li>En línea</li>
+                <p>
+                  Para este caso, se ordenan los números según el valor
+                  posicional. Se hace, colocando los dígitos uno sobre el otro,
+                  siguiendo la estructura de unidades (U), decenas (D), centenas
+                  (C), siguen los millares, cada uno con su correspondiente, así
+                  sucesivamente, hasta ordenar todos lo números. Pueden darse
+                  diferentes casos de sumas, desde las más sencillas de un
+                  dígito o más o las sumas “llevando” o con “acarreo”. Estas se
+                  dan cuando los números de una columna son mayores a 9. A
+                  continuación, mediante un ejemplo, se explican los pasos para
+                  realizar una suma de manera vertical. Se desea sumar: 594 +
+                  548.
+                </p>
+                <h3>PASO 1</h3>
+                <p>
+                  Se ordenan los sumandos en columna uno debajo de otro, según
+                  su orden posicional.
+                </p>
+                <img src="/public/images/paso1.png" alt="" />
+                <h3>PASO 2</h3>
+                <p>
+                  Se comienza sumando siempre de derecha a izquierda, es decir;
+                  desde la unidad.
+                </p>
+                <img src="/images/paso2.png" alt="" />
+                <h3>PASO 3</h3>
+                <p>
+                  Luego, se suman los dígitos de la columna de la decena y al
+                  resultado se le agrega el acarreo.
+                </p>
+                <img src="/images/paso3.png" alt="" />
+                <h3>PASO 4</h3>
+                <p>Se procede de igual manera que con la unidad y la decena.</p>
+                <img src="/images/paso4.png" alt="" />
+                <p>
+                  De esta manera, se obtiene el total de la suma, donde 594 +
+                  548 = 1142. Cuando se tienen números decimales, se suman
+                  mediante el mismo procedimiento descrito, sin embargo, se debe
+                  tener cuidado al momento de ordenar las cantidades.
+                </p>
+              </ul>
+            </div>
           </div>
         </div>
+      </div>
+      <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BWK6NLFQYzA?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </>
   );
