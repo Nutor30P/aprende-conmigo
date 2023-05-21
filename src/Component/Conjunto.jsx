@@ -59,7 +59,7 @@ function Conjunto() {
             domingo].
             <br />
             <br />
-            <img src="images/uploads/conjunto1.png" alt="" />
+            <img src="../../public/images/uploads/conjunto1.png" alt="" />
           </span>
           </div>
           <hr />
@@ -90,7 +90,7 @@ function Conjunto() {
               <li>
               <span><strong>Conjuntos Finitos:</strong> Sus elementos pueden contarse o enumerarse en su totalidad. Por ejemplo: los meses del año, los días de la semana o los continentes.</span>
                 <br />
-                <img src="images/uploads/conjunto2.png" alt="" />
+                <img src="../../public/images/uploads/conjunto2.jpg" alt="" />
               </li>
               <li>
               <span><strong>Conjuntos Infinitos:</strong> Sus elementos no se pueden contar o enumerar en su totalidad, debido a que no tienen fin. Por ejemplo: los números.</span>
