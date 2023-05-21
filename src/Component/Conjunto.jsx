@@ -59,7 +59,7 @@ function Conjunto() {
             domingo].
             <br />
             <br />
-            <img src="/images/conjunto1.png" alt="" />
+            <img src="images/uploads/conjunto1.png" alt="" />
           </span>
           </div>
           <hr />
@@ -90,42 +90,42 @@ function Conjunto() {
               <li>
               <span><strong>Conjuntos Finitos:</strong> Sus elementos pueden contarse o enumerarse en su totalidad. Por ejemplo: los meses del año, los días de la semana o los continentes.</span>
                 <br />
-                <img src="/images/conjunto2.png" alt="" />
+                <img src="images/uploads/conjunto2.png" alt="" />
               </li>
               <li>
               <span><strong>Conjuntos Infinitos:</strong> Sus elementos no se pueden contar o enumerar en su totalidad, debido a que no tienen fin. Por ejemplo: los números.</span>
                 <br />
-                <img src="/images/conjunto3.png" alt="" />
+                <img src="images/uploads/conjunto3.png" alt="" />
               </li>
               <li>
               <span><strong>Conjuntos Unitario:</strong> Está compuesto por un único elemento. Por ejemplo: La Luna es el único elemento en el conjunto “satélites naturales de la Tierra”.</span>
                 <br />
-                <img  src="/images/conjunto4.png" alt="" />
+                <img  src="images/uploads/conjunto4.png" alt="" />
               </li>
               <li>
               <span> <strong>Conjunto Vacio:</strong> No presenta ni contiene elementos.</span>
                 <br />
-                <img src="/images/conjunto5.png" alt="" />
+                <img src="images/uploads/conjunto5.png" alt="" />
               </li>
               <li>
               <span> <strong>Conjunto Universal:</strong> Es el conjunto que contiene a todos los elementos de un conjunto dado. Por ejemplo: el conjunto de los números naturales.</span>
                 <br />
-                <img src="/images/conjunto6.png" alt="" />
+                <img src="images/uploads/conjunto6.png" alt="" />
               </li>
               <li>
               <span> <strong>Conjunto Disjunto:</strong> Es el conjunto que no tiene elementos en común con otro conjunto. Por ejemplo: el conjunto de los números pares y el conjunto de los números impares.</span>
                 <br />
-                <img src="/images/conjunto7.png" alt="" />
+                <img src="images/uploads/conjunto7.png" alt="" />
               </li>
               <li>
               <span><strong>Conjunto heterogéneo</strong>Sus elementos difieren en clase y categoría.</span>
                 <br />
-                <img src="/images/conjunto9.png" alt="" />
+                <img src="images/uploads/conjunto9.png" alt="" />
               </li>
               <li>
               <span>  <strong>Conjunto homogéneo:</strong> Sus elementos son de la misma clase y categoría.</span>
                 <br />
-                <img src="/images/conjunto8.png" alt="" />
+                <img src="images/uploads/conjunto8.png" alt="" />
               </li>
             </ul>
             <br />

@@ -5,7 +5,7 @@ import EncabezadoPrincipal from "./EncabezadoPrincipal";
 import Redes from "./Redes";
 import Date from '../date/Date.json';
 import Temas from './Temas';
-import { Link } from "react-router-dom";
+
 
 function Home() {
   let temas = Date;

@@ -92,7 +92,7 @@ function Fracciones() {
               gráfica se representa como se muestra a continuación:
             </span>
             <br />
-            <img src="/images/fraccion1.png" alt="" />
+            <img src="images/uploads/fraccion1.png" alt="" />
             <br />
             <span>
               Para graficar un número fraccionario se utilizan, por lo general,
@@ -103,7 +103,7 @@ function Fracciones() {
               y tomar 9 de ellas:
             </span>
             <br />
-            <img src="/images/fraccion2.png" alt="" />
+            <img src="images/uploads/fraccion2.png" alt="" />
             <br />
             <span>
               Se observa, que una sola figura no es suficiente para tomar las 9
@@ -114,7 +114,7 @@ function Fracciones() {
               la siguiente manera:
             </span>
             <br />
-            <img src="/images/fraccion3.png" alt="" />
+            <img src="images/uploads/fraccion3.png" alt="" />
           </div>
           <div>
             <h2 id="Partes_de_la_resta">TIPOS DE FRACCIONES</h2>
@@ -132,7 +132,7 @@ function Fracciones() {
                 , <MathComponent tex={String.raw`3/4`} display={false} /> ,{" "}
                 <MathComponent tex={String.raw`5/6`} display={false} /> , etc.</span>
                 <br />
-                <img src="/images/fraccion4.png" alt="" />
+                <img src="images/uploads/fraccion4.png" alt="" />
               </li>
               <li>
                 <span><strong>Fracciones impropia:</strong> estas representan más de
@@ -143,7 +143,7 @@ function Fracciones() {
                 , <MathComponent tex={String.raw`5/4`} display={false} /> ,{" "}
                 <MathComponent tex={String.raw`7/6`} display={false} /> , etc.</span>
                 <br />
-                <img src="/images/fraccion5.png" alt="" />
+                <img src="images/uploads/fraccion5.png" alt="" />
               </li>
               <li>
                 <span><strong>Fracciones mixtas:</strong> estas representan una unidad
@@ -154,7 +154,7 @@ function Fracciones() {
                 , <MathComponent tex={String.raw`5/4`} display={false} /> ,{" "}
                 <MathComponent tex={String.raw`7/6`} display={false} /> , etc.</span>
                 <br />
-                <img src="/images/fraccion6.png" alt="" />
+                <img src="images/uploads/fraccion6.png" alt="" />
               </li>
               <li>
                 <span><strong>Fracciones decimales:</strong> son aquellas fracciones
@@ -162,7 +162,7 @@ function Fracciones() {
                 fracción {3}/{10} es una fracción decimal. Su representación
                 gráfica es:</span>
                 <br />
-                <img src="/images/fraccion7.png" alt="" />
+                <img src="/images/uploads/fraccion7.png" alt="" />
               </li>
             </ul>
           </div>
@@ -190,7 +190,7 @@ function Fracciones() {
                     denominador, simplemente se deben sumar los numeradores y se
                     mantiene el mismo denominador. Ejemplo.</span>
                     <br />
-                    <img src="/images/fraccion8.png" alt="" />
+                    <img src="images/uploads/fraccion8.png" alt="" />
                   </ol>
                   <br />
                   <ol>
@@ -201,7 +201,7 @@ function Fracciones() {
                     denominador, uno de ellos es el conocido como
                     “multiplicación en cruz” y se expresa mediante: <br /></span>
                     <br />
-                    <img src="/images/fraccion9.png" alt="" />
+                    <img src="images/uploads/fraccion9.png" alt="" />
                   </ol>
                 </ul>
               </li>
@@ -218,7 +218,7 @@ function Fracciones() {
                     denominador, simplemente se deben restar los numeradores y
                     se mantiene el mismo denominador. Ejemplo.</span>
                     <br />
-                    <img src="/images/fraccion10.png" alt="" />
+                    <img src="images/uploads/fraccion10.png" alt="" />
                   </ol>
                   <br />
                   <ol>
@@ -229,7 +229,7 @@ function Fracciones() {
                     denominador, uno de ellos es el conocido como
                     “multiplicación en cruz” y se expresa mediante:</span>
                     <br />
-                    <img src="/images/fraccion11.png" alt="" />
+                    <img src="images/uploads/fraccion11.png" alt="" />
                   </ol>
                 </ul>
               </li>
@@ -240,7 +240,7 @@ function Fracciones() {
                 multiplicar fracciones, es sencillo, se multiplican los
                 numeradores y se multiplican los denominadores. Ejemplo.</span>
                 <br />
-                <img src="/images/fraccion12.png" alt="" />
+                <img src="images/uploads/fraccion12.png" alt="" />
               </li>
               <li>
                 <span><strong>División de fracciones:</strong> La división de
@@ -251,7 +251,7 @@ function Fracciones() {
                 se divide por el producto del denominador de la primera fracción
                 por el numerador de la segunda fracción. Ejemplo.</span>
                 <br />
-                <img src="/images/fraccion13.png" alt="" />
+                <img src="images/uploads/fraccion13.png" alt="" />
               </li>
             </ul>
             <div>
@@ -264,7 +264,7 @@ function Fracciones() {
                 los número 2 y 10, se utiliza:
               </span>
               <br />
-              <img src="/images/fraccion14.png" alt="" />
+              <img src="images/uploads/fraccion14.png" alt="" />
               <br />
               <span>Cuando el denominador es igual o mayor a 11 se utiliza la terminación “avos”, entonces el denominador se leería; onceavos, doceavos, treceavos, veinteavos. <br /> </span>
             </div>

@@ -61,7 +61,7 @@ function Division() {
               persona le corresponden 3 hot dogs.
             </span>
             <br />
-            <img src="/images/division1.png" alt="" />
+            <img src="images/uploads/division1.png" alt="" />
             <br />
             <span>
               Por ser la división la operación inversa de la multiplicación, al
@@ -84,7 +84,7 @@ function Division() {
               división.
             </span>
             <br />
-            <img src="/images/division2.png" alt="" />
+            <img src="images/uploads/division2.png" alt="" />
             <ul>
               <li>
                 <br />
@@ -107,7 +107,7 @@ function Division() {
               </li>
             </ul>
             <br />
-            <img src="/images/resta2.png" alt="" />
+            <img src="images/uploads/resta2.png" alt="" />
           </div>
           <div>
             <h2 id="Propiedades_de_la_resta">TIPOS DE DIVISION</h2>
@@ -157,15 +157,15 @@ function Division() {
                   El dividendo puede tener cualquier cantidad de cifras, pero el
                   divisor tiene un solo dígito.
                 </span>
-                <img src="/public/images/division3.png" alt="" />
-                <img src="/images/division4.png" alt="" />
+                <img src="images/uploads/division3.png" alt="" />
+                <img src="/images/uploads/division4.png" alt="" />
                 <h3>DIVISIONES DE DOS CIFRAS</h3>
                 <span>
                   El dividendo puede tener cualquier cantidad de cifras, pero el
                   divisor tiene dos dígitos.
                 </span>
-                <img src="/images/division5.png" alt="" />
-                <img src="/images/division5.png" alt="" />
+                <img src="images/uploads/division5.png" alt="" />
+                <img src="images/uploads/division5.png" alt="" />
               </ul>
             </div>
           </div>

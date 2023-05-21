@@ -62,7 +62,7 @@ function Multiplicacion() {
               estudiantes hay en total, se podrían agrupar todos y contarlos.
             </span>
             <br />
-            <img src="/images/multi1.png" alt="" />
+            <img src="images/uploads/multi1.png" alt="" />
             <br />
             <span>
               Otra manera, es sumar 5 veces el 12 de este modo: 12 + 12 + 12 +
@@ -109,7 +109,7 @@ function Multiplicacion() {
               </li>
             </ul>
             <br />
-            <img src="/images/multi2.png" alt="" />
+            <img src="images/uploads/multi2.png" alt="" />
             <br />
           </div>
           <div>
@@ -181,7 +181,7 @@ function Multiplicacion() {
                 número que está fuera del paréntesis por cada número dentro del
                 paréntesis y luego se suman los resultados.
                 <br />
-                <img src="/images/multi3.png" alt="" />
+                <img src="images/uploads/multi3.png" alt="" />
                 <br />
                 Se puede generalizar de la siguiente manera: a * (b ± c) = a*b ±
                 a*c, el signo ±, significa que se puede dar una suma o una
@@ -200,7 +200,7 @@ function Multiplicacion() {
                 ordenar de manera vertical o horizontal.
               </span>
               <br />
-              <img src="/images/multi4.png" alt="" />
+              <img src="images/uploads/multi4.png" alt="" />
               <br />
               <span>
                 De esta manera se tiene que, para multiplicar 5 x 6, es igual a
@@ -218,7 +218,7 @@ function Multiplicacion() {
                 que será el producto o resultado.
               </span>
               <br />
-              <img src="/images/multi5.png" alt="" />
+              <img src="images/uploads/multi5.png" alt="" />
               <br />
               <span>
                 Luego, se multiplica cada dígito del multiplicando por el
@@ -251,7 +251,7 @@ function Multiplicacion() {
                     (1 × 2 = 2)
                   </span>
                   <br />
-                  <img src="/images/multi6.png" alt="" />
+                  <img src="images/uploads/multi6.png" alt="" />
                 </ul>
               </div>
               <span>
@@ -291,7 +291,7 @@ function Multiplicacion() {
                     <h3>PASO 3</h3>
                     <span>se suman los productos obtenidos</span>
                       <br />
-                    <img src="/images/multi7.png" alt="" />
+                    <img src="images/uploads/multi7.png" alt="" />
                   </ul>
                 </div>
               </span>

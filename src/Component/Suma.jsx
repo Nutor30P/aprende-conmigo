@@ -71,7 +71,7 @@ function Suma() {
                 ambos conjuntos.
               </span>
               <br />
-              <img src="/images/uploads/conjuntos.png" alt="" />
+              <img src="images/uploads/conjuntos.png" alt="" />
               <br />
               <span>
                 Bastará ahora, con contar la cantidad de letras del nuevo
@@ -110,7 +110,7 @@ function Suma() {
               </ul>
               <span>En la siguiente suma se representan sus elementos:</span>
               <br />
-              <img src="/images/uploads/como-sumar.png" alt="" />
+              <img src="images/uploads/como-sumar.png" alt="" />
             </div>
             <div>
               <h2 id="Propiedades_de_la_suma">Propiedades de la suma</h2>
@@ -226,7 +226,7 @@ function Suma() {
                     unidades, decenas con las decenas, hasta sumar todos los
                     dígitos.
                     <br />
-                    <img src="/public/images/suma_columna.png" alt="suma" />
+                    <img src="images/uploads/suma_columna.png" alt="suma" />
                     <br />
                   </span>
                   <li>
@@ -252,7 +252,7 @@ function Suma() {
                     su orden posicional.
                   </span>
                   <br />
-                  <img src="/public/images/paso1.png" alt="" /><br />
+                  <img src="images/uploads/paso1.png" alt="" /><br />
                   <br />
                   <h3>PASO 2</h3>
                   <span>
@@ -260,7 +260,7 @@ function Suma() {
                     decir; desde la unidad.
                   </span>
                   <br />
-                  <img src="/images/paso2.png" alt="" />
+                  <img src="images/uploads/paso2.png" alt="" />
                   <br />
                   <h3>PASO 3</h3>
                   <span>
@@ -268,14 +268,14 @@ function Suma() {
                     resultado se le agrega el acarreo.
                   </span>
                   <br />
-                  <img src="/images/paso3.png" alt="" />
+                  <img src="images/uploads/paso3.png" alt="" />
                   <br />
                   <h3>PASO 4</h3>
                   <span>
                     Se procede de igual manera que con la unidad y la decena.
                   </span>
                   <br />
-                  <img src="/images/paso4.png" alt="" />
+                  <img src="images/uploads/paso4.png" alt="" />
                   <br />
                   <span>
                     De esta manera, se obtiene el total de la suma, donde 594 +
