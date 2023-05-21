@@ -9,6 +9,9 @@ import { Route, Routes } from 'react-router-dom';
 import {  CategoryPage } from './Component/Quiz-App-con-React/src/pages/CategoryPage';
 import Resta from './Component/Resta'
 import Multiplicacion from './Component/Multiplicacion';
+import Division from './Component/Division';
+import Fracciones from './Component/Fracciones';
+import Conjunto from './Component/Conjunto';
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
         <Route path='/aprende-conmigo/suma' element={<Suma />} />
         <Route path='/aprende-conmigo/resta' element={<Resta />} />
         <Route path='/aprende-conmigo/multiplicacion' element={<Multiplicacion />} />
+        <Route path='/aprende-conmigo/division' element={<Division />} />
+        <Route path='/aprende-conmigo/fracciones' element={<Fracciones />} />
+        <Route path='/aprende-conmigo/conjunto' element={<Conjunto />} />
 				<Route path='/aprende-conmigo/quizz' element={<HomePage />} />
         <Route path='/aprende-conmigo/team' element={<Team />} />
         <Route path='/aprende-conmigo/triki' element={<Triki />} />

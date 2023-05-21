@@ -18,8 +18,8 @@ function Home() {
       return "/aprende-conmigo/multiplicacion";
     } else if (titulo === "DIVISION") {
       return "/aprende-conmigo/division";
-    } else if (titulo === "Potencia") {
-      return "/aprende-conmigo/potencia";
+    } else if (titulo === "FRACCIONES") {
+      return "/aprende-conmigo/fracciones";
     } else if (titulo === "Raiz") {
       return "/aprende-conmigo/raiz"; 
     }

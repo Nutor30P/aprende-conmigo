@@ -97,13 +97,7 @@ function EncabezadoPrincipal() {
                   </a>
                   <ul className="dropdown-menu level1">
                     <li>
-                      <a href="bloglist.html">x</a>
-                    </li>
-                    <li>
-                      <a href="bloggrid.html">x</a>
-                    </li>
-                    <li className="it-last">
-                      <a href="blogdetail.html">x</a>
+                      <a href="https://blog.hubspot.es/website/que-es-react">Acerca de esta tecnologia</a>
                     </li>
                   </ul>
                 </li>
