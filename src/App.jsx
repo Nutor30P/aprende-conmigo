@@ -12,6 +12,7 @@ import Multiplicacion from './Component/Multiplicacion';
 import Division from './Component/Division';
 import Fracciones from './Component/Fracciones';
 import Conjunto from './Component/Conjunto';
+import Error from './Component/Error';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 				<Route path='/aprende-conmigo/quizz' element={<HomePage />} />
         <Route path='/aprende-conmigo/team' element={<Team />} />
         <Route path='/aprende-conmigo/triki' element={<Triki />} />
+        <Route path='/aprende-conmigo/*' element={<Error />} />
 				<Route
 					path='/category/:category'
 					element={<CategoryPage />}

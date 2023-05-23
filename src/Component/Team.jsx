@@ -32,15 +32,25 @@ function Team() {
           <div class="row ipad-width2">
             <div class="col-md-9 col-sm-12 col-xs-12">
               <div class="celebrity-items">
+              <div class="ceb-item">
+                  <a href="celebritysingle.html">
+                    <img className="foto" src="images/uploads/equipo.jpg" alt="" />
+                  </a>
+                  <div class="ceb-infor">
+                    <h2>
+                      <a href="celebritylist.html">Equipo</a>
+                    </h2>
+                  </div>
+                </div>
                 <div class="ceb-item">
                   <a href="celebritysingle.html">
                     <img className="foto" src="images/uploads/persona3.jpg" alt="" />
                   </a>
                   <div class="ceb-infor">
                     <h2>
-                      <a href="celebritylist.html">Diego</a>
+                      <a>Diego Alejandro Perilla Mora</a>
                     </h2>
-                    <span>16 Años</span>
+
                   </div>
                 </div>
                 <div class="ceb-item">
@@ -49,9 +59,9 @@ function Team() {
                   </a>
                   <div class="ceb-infor">
                     <h2>
-                      <a href="celebritylist.html">Ian</a>
+                      <a >Ian Andres Vanegas Sarmiento</a>
                     </h2>
-                    <span>16 Años</span>
+   
                   </div>
                 </div>
                 <div class="ceb-item">
@@ -60,9 +70,9 @@ function Team() {
                   </a>
                   <div class="ceb-infor">
                     <h2>
-                      <a href="celebritylist.html">X</a>
+                      <a >Julian David Novoa Bermudez</a>
                     </h2>
-                    <span>16 Años</span>
+ 
                   </div>
                 </div>
                 <div class="ceb-item">
@@ -71,11 +81,11 @@ function Team() {
                   </a>
                   <div class="ceb-infor">
                     <h2>
-                      <a href="celebritylist.html">Juan Diego</a>
+                      <a >German Daniel Gutierrez Gutierrez</a>
                     </h2>
-                    <span>16 Años</span>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>

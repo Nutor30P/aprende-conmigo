@@ -44,13 +44,13 @@ function EncabezadoPrincipal() {
                   </a>
                   <ul className="dropdown-menu level1">
                     <li>
-                      <Link to="">Nuestra Mision</Link>
+                      <Link to="/aprende-conmigo/*">Nuestra Mision</Link>
                     </li>
                     <li>
-                      <Link to="/aprende-conmigo/contenido">Nuestra Vision</Link>
+                      <Link to="/aprende-conmigo/*">Nuestra Vision</Link>
                     </li>
                     <li>
-                      <a href="homev3.html">Encuestas de respaldo</a>
+                      <Link to="/aprende-conmigo/*">Encuestas de respaldo</Link>
                     </li>
                   </ul>
                 </li>
@@ -65,10 +65,10 @@ function EncabezadoPrincipal() {
                   </a>
                   <ul className="dropdown-menu level1">
                     <li className="dropdown">
-                      <a href="movielist.html">Imagenes</a>
+                      <Link to="/aprende-conmigo/*">Imagenes</Link>
                     </li>
                     <li>
-                      <a href="movielist.html">Videos</a>
+                      <Link to="/aprende-conmigo/*">Videos</Link>
                     </li>
                   </ul>
                 </li>
@@ -97,7 +97,7 @@ function EncabezadoPrincipal() {
                   </a>
                   <ul className="dropdown-menu level1">
                     <li>
-                      <a href="https://blog.hubspot.es/website/que-es-react">Acerca de esta tecnologia</a>
+                      <a target='_blank' href="https://blog.hubspot.es/website/que-es-react">Acerca de esta tecnologia</a>
                     </li>
                   </ul>
                 </li>

@@ -18,8 +18,8 @@ function Temas({titulo, imagen, descripcion, duracion, clasificacion, actores}) 
         {descripcion}
       </p>
       <p>
-        Contenido: <a href="#">{actores[0]},</a> <a href="#">{actores[1]},</a>{" "}
-        <a href="#"> {actores[2]}</a>
+        Contenido: <a >{actores[0]},</a> <a>{actores[1]},</a>{" "}
+        <a> {actores[2]}</a>
       </p>
     </div>
   </div>
