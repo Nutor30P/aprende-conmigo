@@ -1,0 +1,75 @@
+[
+  {
+    "titulo": "SUMA",
+    "clasificacion": "8.1",
+    "anio": "2012",
+    "descripcion":
+      "Espacio donde aprenderas todo lo relacionado con el tema matematico de suma, aqui podras encontrar ejercicios, videos, juegos y mucho mas, ANIMATE A ENTRAR!!!!",
+    "director": "joss Whedon",
+    "estreno": "1 May 2015",
+    "actores": ["Teoria", "Material-Audivisual", "Ejercicios"],
+    "duracion": "2h21",
+    "imagen": "images/uploads/suma.png"
+  },
+  {
+    "titulo": "RESTA",
+    "clasificacion": "7.8",
+    "anio": "2014",
+    "descripcion":
+      "Aqui aprenderas todo lo relacionado con el tema matematico de resta, aqui podras encontrar ejercicios, videos, juegos y mucho mas, ANIMATE A ENTRAR!!!!",
+    "estreno": "1 May 2015",
+    "actores": ["Teoria", "Material-Audivisual", "Ejercicios"],
+    "duracion": "2h21",
+    "imagen": "images/uploads/resta-logo.png"
+  },
+  {
+    "titulo": "MULTIPLICACION",
+    "clasificacion": "7.3",
+    "anio": "2015",
+    "descripcion":
+      "Aqui aprenderas todo lo relacionado con el tema matematico de multiplicacion, aqui podras encontrar ejercicios, videos, juegos y mucho mas, ANIMATE A ENTRAR!!!!",
+    "director": "Peyton Redd",
+    "estreno": "1 May 2015",
+    "actores": ["Teoria", "Material-Audivisual", "Ejercicios"],
+    "duracion": "2h21",
+    "imagen":"images/uploads/multi.png"
+  },
+  {
+    "titulo": "DIVISION",
+    "clasificacion": "7.2",
+    "anio": "2013",
+    "descripcion":
+    "Aqui aprenderas todo lo relacionado con el tema matematico de division, aqui podras encontrar ejercicios, videos, juegos y mucho mas, ANIMATE A ENTRAR!!!!",
+    "director": "Peyton Redd",
+    "estreno": "1 May 2015",
+    "actores": ["Teoria", "Material-Audivisual", "Ejercicios"],
+    "duracion": "2h21",
+    "imagen": "images/uploads/division.png"
+
+  },
+  {
+    "titulo": "FRACCIONES",
+    "clasificacion": "7.0",
+    "anio": "2013",
+    "descripcion":
+    "Aqui aprenderas todo lo relacionado con el tema matematico de fraccion, aqui podras encontrar ejercicios, videos, juegos y mucho mas, ANIMATE A ENTRAR!!!!",
+    "director": "Peyton Redd",
+    "estreno": "1 May 2015",
+    "actores": ["Teoria", "Material-Audivisual", "Ejercicios"],
+    "duracion": "2h21",
+    "imagen": "images/uploads/fraccion.png"
+  },
+  {
+    "titulo": "CONJUNTO",
+    "clasificacion": "7.0",
+    "anio": "2013",
+    "descripcion":
+    "Aqui aprenderas todo lo relacionado con el tema matematico de conjunto, aqui podras encontrar ejercicios, videos, juegos y mucho mas, ANIMATE A ENTRAR!!!!",
+    "director": "Peyton Redd",
+    "estreno": "1 May 2015",
+    "actores": ["Teoria", "Material-Audivisual", "Ejercicios"],
+    "duracion": "2h21",
+    "imagen": "images/uploads/conjunto.png"
+  }
+]
+
